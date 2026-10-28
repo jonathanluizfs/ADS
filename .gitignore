@@ -1,0 +1,6 @@
+# Arquivos binarios locais (nao ignorar .wasm; pode ser necessario no site)
+*.exe
+*.o
+*.obj
+*.out
+.DS_Store

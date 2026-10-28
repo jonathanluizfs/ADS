@@ -1,0 +1,165 @@
+{
+  "versao_catalogo": 1,
+  "repositorio": "jonathanluizfs/ADS",
+  "atualizado_em": "2026-10-28",
+  "observacoes": [
+    "Datas de atividade oriundas de comentários quando disponíveis; não comprovam entrega.",
+    "Arquivos originais na raiz permanecem disponíveis para compatibilidade com links anteriores.",
+    "Os caminhos organizados referenciam cópias idênticas do conteúdo atual; manter ambos sincronizados quando houver edições.",
+    "wasm_path nulo indica ausência de binário WebAssembly registrado neste catálogo."
+  ],
+  "trabalhos": [
+    {
+      "id": "01",
+      "file": "01_custo_viagem.c",
+      "title": "Custo de viagem",
+      "category": "fundamentos",
+      "date": "2026-03-12",
+      "note": "Data mencionada no comentário do arquivo reconstruído; não é data de commit.",
+      "discipline": "Introdução à Lógica de Programação",
+      "origin": "reconstruido",
+      "description": "Estima o custo de combustível a partir da distância e do preço por litro, considerando 10 km/L.",
+      "tags": [
+        "entrada",
+        "saida",
+        "aritmetica"
+      ],
+      "path": "programacao-c/fundamentos/01_custo_viagem.c",
+      "legacy_path": "01_custo_viagem.c",
+      "wasm_path": null
+    },
+    {
+      "id": "02",
+      "file": "02_calculo_imc.c",
+      "title": "Cálculo de IMC",
+      "category": "fundamentos",
+      "date": "2026-03-20",
+      "note": "Data mencionada no comentário do arquivo reconstruído; não é data de commit.",
+      "discipline": "Programação em C",
+      "origin": "reconstruido",
+      "description": "Calcula um índice a partir do peso e da altura informados.",
+      "tags": [
+        "entrada",
+        "saida",
+        "aritmetica"
+      ],
+      "path": "programacao-c/fundamentos/02_calculo_imc.c",
+      "legacy_path": "02_calculo_imc.c",
+      "wasm_path": null
+    },
+    {
+      "id": "03",
+      "file": "03_apuracao_eleitoral.c",
+      "title": "Apuração eleitoral",
+      "category": "fundamentos",
+      "date": "2026-05-28",
+      "note": "Data mencionada no comentário do arquivo reconstruído; não é data de commit.",
+      "discipline": "Programação em C",
+      "origin": "reconstruido",
+      "description": "Conta votos, brancos e nulos; verifica empate ou candidato mais votado.",
+      "tags": [
+        "lacos",
+        "condicionais",
+        "switch"
+      ],
+      "path": "programacao-c/fundamentos/03_apuracao_eleitoral.c",
+      "legacy_path": "03_apuracao_eleitoral.c",
+      "wasm_path": null
+    },
+    {
+      "id": "04",
+      "file": "04_erp_estoque_tecnolog.c",
+      "title": "ERP de estoque TecnoLog",
+      "category": "projetos",
+      "date": "2026-06-05",
+      "note": "Data da discussão dos requisitos, segundo comentário no arquivo; não é data de entrega comprovada.",
+      "discipline": "Programação em C",
+      "origin": "reconstruido_a_partir_de_requisitos",
+      "description": "Cadastra produtos em memória e calcula o valor total do estoque usando estruturas e ponteiros.",
+      "tags": [
+        "struct",
+        "ponteiros",
+        "memoria-dinamica"
+      ],
+      "path": "programacao-c/projetos/04_erp_estoque_tecnolog.c",
+      "legacy_path": "04_erp_estoque_tecnolog.c",
+      "wasm_path": null
+    },
+    {
+      "id": "05",
+      "file": "05_controle_temperatura.c",
+      "title": "Controle de temperatura",
+      "category": "fundamentos",
+      "date": null,
+      "note": "Data original não identificada no arquivo.",
+      "discipline": "Programação em C",
+      "origin": "versao_armazenada",
+      "description": "Indica aquecimento, resfriamento ou estabilidade em uma faixa definida.",
+      "tags": [
+        "funcoes",
+        "condicionais",
+        "lacos"
+      ],
+      "path": "programacao-c/fundamentos/05_controle_temperatura.c",
+      "legacy_path": "05_controle_temperatura.c",
+      "wasm_path": null
+    },
+    {
+      "id": "06",
+      "file": "06_calculo_salario_horas_extras.c",
+      "title": "Salário e horas extras",
+      "category": "fundamentos",
+      "date": null,
+      "note": "Data original não identificada no arquivo.",
+      "discipline": "Programação em C",
+      "origin": "versao_armazenada",
+      "description": "Calcula salário semanal com adicional ilustrativo de 50% sobre horas acima de 40.",
+      "tags": [
+        "funcoes",
+        "condicionais",
+        "aritmetica"
+      ],
+      "path": "programacao-c/fundamentos/06_calculo_salario_horas_extras.c",
+      "legacy_path": "06_calculo_salario_horas_extras.c",
+      "wasm_path": null
+    },
+    {
+      "id": "07",
+      "file": "07_lista_simplesmente_encadeada.c",
+      "title": "Lista simplesmente encadeada",
+      "category": "estruturas-de-dados",
+      "date": null,
+      "note": "Data original não identificada no arquivo.",
+      "discipline": "Estrutura de Dados",
+      "origin": "versao_armazenada",
+      "description": "Implementa inclusão, consulta, alteração, remoção e listagem de registros em lista encadeada.",
+      "tags": [
+        "listas",
+        "ponteiros",
+        "memoria-dinamica"
+      ],
+      "path": "programacao-c/estruturas-de-dados/07_lista_simplesmente_encadeada.c",
+      "legacy_path": "07_lista_simplesmente_encadeada.c",
+      "wasm_path": null
+    },
+    {
+      "id": "original-viagem",
+      "file": "viagem.c",
+      "title": "Viagem (versão original armazenada)",
+      "category": "fundamentos",
+      "date": null,
+      "note": "O arquivo 01_custo_viagem.c menciona atividade de 12/03/2026 relacionada a este arquivo; data não confirmada diretamente neste código.",
+      "discipline": "Introdução à Lógica de Programação",
+      "origin": "trabalho_ava_armazenado",
+      "description": "Versão preservada do exercício de cálculo de gastos com combustível.",
+      "tags": [
+        "entrada",
+        "saida",
+        "aritmetica"
+      ],
+      "path": "programacao-c/fundamentos/viagem.c",
+      "legacy_path": "viagem.c",
+      "wasm_path": null
+    }
+  ]
+}
